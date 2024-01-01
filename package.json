@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --fix",
+    "test": "vitest",
+    "test:watch": "vitest dev"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/test-utils": "^3.9.0",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.10.3",
+    "@vboechat/eslint-config": "^1.2.1",
+    "@vue/test-utils": "^2.4.3",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "happy-dom": "^12.10.3",
+    "nuxt": "^3.8.2",
+    "playwright-core": "^1.40.1",
+    "postcss": "^8.4.32",
+    "shadcn-nuxt": "^0.1.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0",
+    "vue": "^3.3.12",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.1",
+    "date-fns": "^3.0.6",
+    "lucide-vue-next": "^0.303.0",
+    "nuxt-storage": "^1.2.2",
+    "radix-vue": "^1.2.5",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
