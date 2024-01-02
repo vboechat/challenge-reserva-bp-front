@@ -7,6 +7,10 @@ interface ApiResponse {
 import { ref } from "vue";
 import { useRuntimeConfig } from "nuxt/app";
 
+useHead({
+  title: "Login",
+});
+
 const config = useRuntimeConfig();
 const router = useRouter();
 
